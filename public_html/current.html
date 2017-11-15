@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+  <title>Current page </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+  
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html"> Home</a></li>
+  <li><a href="about.html"> About site </a></li>
+   <li><a href="visitorlog.html"> Visitor Log </a> </li>
+<li><a href="resume.html"> Resume</a>
+    <li><a href="current.html"> Current Events </a>
+    </div>
+  </div>
+</nav>
+    
+    
+<div class="container">
+  <h2>My Go-TO news sources</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://static-media.streema.com/media/cache/c3/b6/c3b6f50f32a35bc484f9cfbdf15a4799.jpg" alt="KSFO" style="width:100%;">
+        <div class="carousel-caption">
+          <h3 class="bg-primary">KSFO 560 AM</h3>
+         
+          <p class="bg-primary">My favorite morning show for news and views you will not here anywhere else! </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="http://www.knbr.com/wp-content/uploads/sites/82/2016/06/giants-knbr-logo.png" alt="KNBR" style="width:100%;">
+        <div class="carousel-caption">
+         
+          <p class="bg-primary">My favorite sports stations for the Giants and 49ers</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="http://www.breitbart.com/t/assets/i/BB-logo-highres.jpg" alt="Breitbart" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Breitbart</h3>
+          <p>What I read for my political needs</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
